@@ -1,0 +1,44 @@
+@import './components/common-css/colors.scss';
+@import "./components/common-css/fonts.scss";
+
+
+html, body {
+  font-family: $montserrat;
+  color:#f5eaea;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $darkblue;
+}
+
+.test {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+}
+
+.meme-pad{
+  height: 20000px;
+  width: 10px;
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  &:hover{
+    background-color: #d3d3eb2d;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  background-clip: content-box;
+}

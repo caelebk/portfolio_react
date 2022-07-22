@@ -1,0 +1,48 @@
+@import "../common-css/fonts.scss";
+
+.navbar {
+    padding: 10px;
+    font-weight: 300;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+
+    &:hover {
+        cursor: default;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #F7E2E2;
+}
+
+.nav-list {
+    ul {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        list-style-type: none;
+
+        .nav-item {
+            display: inline;
+            text-align: center;
+            font-size: 22px;
+            opacity: 1;
+            transition: 0.3s;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.5;
+            }
+        }
+    }
+}

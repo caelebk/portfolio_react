@@ -1,0 +1,39 @@
+@import "../../common-css/fonts.scss";
+@import "../section.scss";
+
+.introduction {
+    margin: 14.5px 0 0 14.5px;
+
+    .wrapper {
+        .photo {
+            border: 5px solid white;
+            border-radius: 20px;
+            width: 25rem;
+            height: 25rem;
+        }
+    }
+}
+
+
+
+
+.text-content-wrapper {
+    width: 650px;
+    cursor: default;
+
+    .open {
+        margin: 0;
+        font-size: 72px;
+    }
+
+    .content {
+        font-size: 32px;
+        font-weight: 400;
+
+        ul {
+            li {
+                margin-top: 10px;
+            }
+        }
+    }
+}

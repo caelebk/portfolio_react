@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import NavBar from './components/navbar/navbar';
+import ScrollMenu from './components/scroll-menu/scroll-menu';
+import ScrollAnchor from './components/scroll-menu/scroll-anchor';
+import Introduction from './components/section/introduction/introduction'
 import reportWebVitals from './reportWebVitals';
+import About from './components/section/about/about';
+import 'hover.css';
+import 'animate.css';
+import './index.scss';
+import DefaultSection from './components/section/default/default-section';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavBar />
+    <ScrollMenu dataAOS="fade-left" anchor="#scroll-anchor" />
+    <ScrollAnchor />
+    <Introduction />
+    <DefaultSection specificStyle={{ height: 200 }} content="Welcome to my Website!" />
+    <About />
+    <div className="meme-pad"></div>
   </React.StrictMode>,
   document.getElementById('root')
 );
