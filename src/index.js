@@ -9,7 +9,6 @@ import About from './components/section/about/about';
 import 'hover.css';
 import 'animate.css';
 import './index.scss';
-import DefaultSection from './components/section/default/default-section';
 
 
 ReactDOM.render(
@@ -18,9 +17,7 @@ ReactDOM.render(
     <ScrollMenu dataAOS="fade-left" anchor="#scroll-anchor" />
     <ScrollAnchor />
     <Introduction />
-    <DefaultSection specificStyle={{ height: 200 }} content="Welcome to my Website!" />
     <About />
-    <div className="meme-pad"></div>
   </React.StrictMode>,
   document.getElementById('root')
 );
