@@ -17,7 +17,7 @@ export default function Introduction(props) {
                     <h2 className='content'>
                         <ul>
                             <li>A <span className="highlight">Computer Science Major</span> at the <span className="highlight">University of British Columbia</span>.</li>
-                            <li>A <span className="highlight">Software Developer Co-op</span> at <span className="highlight">Visier</span>.</li>
+                            <li>Previously a <span className="highlight">Software Developer Co-op</span> at <span className="highlight">Visier</span>.</li>
                             <li>An aspiring <span className="highlight">Software Engineer</span>.</li>
                         </ul>
                     </h2>
