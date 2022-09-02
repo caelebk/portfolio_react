@@ -18,6 +18,7 @@ ReactDOM.render(
     <ScrollAnchor />
     <Introduction />
     <About />
+    <div className='padding'></div>
   </React.StrictMode>,
   document.getElementById('root')
 );
