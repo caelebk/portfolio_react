@@ -9,8 +9,8 @@ class NavBar extends Component {
         document.querySelectorAll('.nav-item').forEach((element) => {
             addAnimation(element, 'backInDown') //heartBeat5 headShake backInDown2 bounceIn3 zoomIn4 fadeIn1
         });
-        addAnimation(document.querySelector('.title'), 'bounceInDown');
-        addAnimation(document.querySelector('.title'), 'delay-1s');
+        addAnimation(document.querySelector('.nav-title'), 'bounceInDown');
+        addAnimation(document.querySelector('.nav-title'), 'delay-1s');
     }
 
     render() {
@@ -23,11 +23,11 @@ class NavBar extends Component {
             <nav className='navbar'>
                 <div className="nav-list">
                     <ul>
-                        <li className='nav-item hvr-grow'><a href="./"> Home </a></li>
+                        <li className='nav-item hvr-grow'><a className="blank" href="./"> Home </a></li>
                         <li className='nav-item hvr-grow' onClick={() => returnTo('.about-me', undefined, undefined, 60)}> About Me </li>
                     </ul>
                 </div>
-                <h1 className='title'>
+                <h1 className='nav-title'>
                     {constants.firstName} {constants.lastName}
                 </h1>
                 <div className="nav-list">
