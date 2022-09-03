@@ -1,24 +1,35 @@
 @import "../section.scss";
 @import "../../common-css/colors.scss";
 
-.about-me {
-    height: 800px;
+.about {
+    height: 100%;
+    margin: 5% 10%;
+    padding: 1% 0;
+    border-radius: 20px;
+    border-top: 2rem solid gray;
+    background-color: $blue;
 
-    .wrapper {
-        border-top: 2rem solid gray;
-        flex-direction: row;
-        align-items: flex-start;
+    .about-context-container {
+        display: flex;
+        flex-direction: column;
         justify-content: flex-start;
-        height: 800px;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 5%;
-        border-radius: 20px;
-        background-color: $blue;
-    }
 
-    .subheader {
-        padding: 1%;
-    }
+        .about-context {
+            .about-list {
+                padding-left: 5%;
+                margin-top: 1%;
+                font-size: 32px;
+                list-style: none;
 
+                .about-list-item {
+                    margin-top: 2.5%;
+
+                    &::before {
+                        content: '>';
+                        margin-right: 1.5%;
+                    }
+                }
+            }
+        }
+    }
 }
