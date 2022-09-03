@@ -24,7 +24,7 @@ class NavBar extends Component {
                 <div className="nav-list">
                     <ul>
                         <li className='nav-item hvr-grow'><a className="blank" href="./"> Home </a></li>
-                        <li className='nav-item hvr-grow' onClick={() => returnTo('.about-me', undefined, undefined, 60)}> About Me </li>
+                        <li className='nav-item hvr-grow' onClick={() => returnTo('.about-anchor', undefined, undefined, 0)}> About Me </li>
                     </ul>
                 </div>
                 <h1 className='nav-title'>

@@ -18,7 +18,7 @@ class ScrollMenu extends Component {
                     <span className='tooltip'>Home</span>
                     <BsHouseDoor className='icon' />
                 </div>
-                <div className="item hvr-grow" onClick={() => returnTo('.about-me')}>
+                <div className="item hvr-grow" onClick={() => returnTo('.about-anchor')}>
                     <span className='tooltip'>About</span>
                     <BsPersonCircle className='icon' />
                 </div>

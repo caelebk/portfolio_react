@@ -21,7 +21,7 @@ export default function About(props) {
             data-aos-delay='3000'>
             <div className="about-context-container">
                 <h2 className="about-title">
-                    Fun Facts
+                    Fun Facts:
                 </h2>
                 <div className='about-context'>
                     <ul className='about-list'>
@@ -42,6 +42,7 @@ export default function About(props) {
                     </ul>
                 </div>
             </div>
+            <div class='about-anchor'></div>
             <DefaultSection title="About Me:" content={constants.aboutMeContext} />
         </section>
     );
