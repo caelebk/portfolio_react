@@ -12,11 +12,9 @@ export default function Header(props) {
         });
 
         if (isVisible) {
-            console.log('hi');
             setTimeout(() => document.querySelector('.line').classList.add('transition'), 1000);
         } else {
             if (document.querySelector('.line').classList.contains('transition')) {
-                console.log('dip');
                 document.querySelector('.line').classList.remove('transition');
             }
         }
