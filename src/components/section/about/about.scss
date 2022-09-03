@@ -1,18 +1,26 @@
-@import "../section.scss";
+@import "../../common-css/container.scss";
 @import "../../common-css/colors.scss";
+@import "../../common-css/fonts.scss";
 
 .about {
-    height: 100%;
-    margin: 5% 10%;
-    padding: 1% 0;
-    border-radius: 20px;
-    border-top: 2rem solid gray;
-    background-color: $blue;
-
     .about-context-container {
+        height: 100%;
+        margin: 5% 10%;
+        padding: 1% 0;
+        border-radius: 20px;
+        border-top: 2rem solid gray;
+        background-color: $blue;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+
+        .about-title {
+            width: fit-content;
+            margin: 1% 5%;
+            font-weight: 500;
+            font-size: 32px;
+            border-bottom: solid 1px white;
+        }
 
         .about-context {
             .about-list {

@@ -1,18 +1,22 @@
-import React from 'react';
-import '../section.scss';
-import { addAnimation } from '../../animator/animator';
+import { React } from 'react';
+import './section.scss';
 
 export default function DefaultSection(props) {
-    addAnimation(document.querySelector('.default'), 'zoomIn');
-    addAnimation(document.querySelector('.default'), 'delay-4s');
 
     return (
         <section className='default'>
-            <hr />
-            <div className="wrapper" style={props.specificStyle}>
-                <div className='subtitle'>{props.content}</div>
+            <div className='line' data-aos="expand"></div>
+            <div className='title-container'>
+                <h1 className='section-title'>
+                    {props.title}
+                </h1>
             </div>
-            <hr />
+            <div className="text-container container">
+                <p className='content'>
+                    {props.content}
+                </p>
+            </div>
+            <div className='line' data-aos="expand"></div>
         </section>
     );
 }

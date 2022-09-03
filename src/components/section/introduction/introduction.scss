@@ -1,10 +1,14 @@
 @import "../../common-css/fonts.scss";
-@import "../section.scss";
+@import "../../common-css/container.scss";
 
 .introduction {
     margin: 14.5px 0 0 14.5px;
 
     .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
         .photo {
             border: 5px solid white;
             border-radius: 20px;

@@ -11,6 +11,7 @@ import 'animate.css';
 import './index.scss';
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
