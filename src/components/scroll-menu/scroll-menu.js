@@ -22,8 +22,8 @@ class ScrollMenu extends Component {
                     <span className='tooltip'>About</span>
                     <BsPersonCircle className='icon' />
                 </div>
-                <div className="item hvr-grow">
-                    <span className='tooltip'>Resume</span>
+                <div className="item hvr-grow" onClick={() => returnTo('.experience-anchor')}>
+                    <span className='tooltip'>Experience</span>
                     <BsJournalCode className='icon' />
                 </div>
                 <div className="item hvr-grow">

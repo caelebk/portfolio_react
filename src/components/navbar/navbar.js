@@ -32,7 +32,7 @@ class NavBar extends Component {
                 </h1>
                 <div className="nav-list">
                     <ul>
-                        <li className='nav-item hvr-grow'> Experience </li>
+                        <li className='nav-item hvr-grow' onClick={() => returnTo('.experience-anchor', undefined, undefined, 0)}> Experience </li>
                         <li className='nav-item hvr-grow'> Contact </li>
                     </ul>
                 </div>

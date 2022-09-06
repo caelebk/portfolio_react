@@ -1,0 +1,52 @@
+.experience {
+    margin: 5% 10%;
+
+    .experience-header {
+        .experience-title {
+            font-size: 32px;
+        }
+    }
+
+    .experience-container {
+        margin: 2.5% 0;
+
+        .experience-list {
+            list-style-type: none;
+            width: fit-content;
+
+            .experience-item {
+                margin: 4% 0;
+
+                .job-header-container {
+                    font-size: 28px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .job-date {
+                        font-size: 20px;
+                        color: rgb(184, 179, 179);
+                    }
+                }
+
+                .tech-container {
+                    margin: 1% 1%;
+
+                    .tech {
+                        color: lightblue;
+                    }
+                }
+
+                .job-container {
+                    .job-list {
+                        list-style-type: "📌";
+
+                        .job-item {
+                            vertical-align: middle;
+                            margin: 2.5% 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

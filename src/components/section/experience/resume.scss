@@ -1,0 +1,25 @@
+.resume {
+    margin: 5% 10%;
+
+    .resume-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 2rem;
+
+        .resume-link {
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+
+            &:hover {
+                background-color: #302358;
+            }
+        }
+    }
+}

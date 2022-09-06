@@ -6,9 +6,13 @@ import ScrollAnchor from './components/scroll-menu/scroll-anchor';
 import Introduction from './components/section/introduction/introduction'
 import reportWebVitals from './reportWebVitals';
 import About from './components/section/about/about';
+import Experience from './components/section/experience/experience';
+import Resume from './components/section/experience/resume';
+import * as constants from './components/constants/constants';
 import 'hover.css';
 import 'animate.css';
 import './index.scss';
+
 
 
 
@@ -19,6 +23,10 @@ ReactDOM.render(
     <ScrollAnchor />
     <Introduction />
     <About />
+    <div className="experience-anchor"></div>
+    <Experience title={constants.workExperienceTitle} experiences={constants.workExperiences} />
+    <Experience title={constants.projectExperienceTitle} experiences={constants.projectExperiences} />
+    <Resume />
     <div className='padding'></div>
   </React.StrictMode>,
   document.getElementById('root')

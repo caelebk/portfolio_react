@@ -18,18 +18,20 @@ export default function About(props) {
             className='about'
             data-aos="fade-down"
             data-aos-once="true"
-            data-aos-delay='3000'>
+            data-aos-anchor-placement="top-center">
+            <div className="about-title-container">
+                <h1 className="about-title">
+                    Fun Facts About Me:
+                </h1>
+            </div>
             <div className="about-context-container">
-                <h2 className="about-title">
-                    Fun Facts:
-                </h2>
                 <div className='about-context'>
                     <ul className='about-list'>
                         <li className='about-list-item'><span className='highlight'>let</span> caeleb = <span className='highlight'>new</span> Caeleb();</li>
                         {
                             traits.map(trait => {
                                 return (
-                                    <li className='about-list-item'>{trait.trait}
+                                    <li className='about-list-item' key={trait.trait}>{trait.trait}
                                         <ul className='about-list'>
                                             <li className='about-list-item'>
                                                 <span className='highlight'>{trait.value}</span>
@@ -42,7 +44,7 @@ export default function About(props) {
                     </ul>
                 </div>
             </div>
-            <div class='about-anchor'></div>
+            <div className='about-anchor'></div>
             <DefaultSection title="About Me:" content={constants.aboutMeContext} />
         </section>
     );

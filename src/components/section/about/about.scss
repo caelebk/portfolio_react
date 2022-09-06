@@ -3,6 +3,21 @@
 @import "../../common-css/fonts.scss";
 
 .about {
+    .about-title-container {
+        display: flex;
+        justify-content: center;
+
+        .about-title {
+            width: fit-content;
+            margin-top: 12%;
+            font-size: 32px;
+            border: solid 2px white;
+            border-radius: 1rem;
+            padding: 1%;
+            text-align: center;
+        }
+    }
+
     .about-context-container {
         height: 100%;
         margin: 5% 10%;
@@ -14,19 +29,11 @@
         flex-direction: column;
         justify-content: flex-start;
 
-        .about-title {
-            width: fit-content;
-            margin: 1% 5%;
-            font-weight: 500;
-            font-size: 32px;
-            border-bottom: solid 1px white;
-        }
-
         .about-context {
             .about-list {
                 padding-left: 5%;
                 margin-top: 1%;
-                font-size: 32px;
+                font-size: 24px;
                 list-style: none;
 
                 .about-list-item {
