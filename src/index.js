@@ -24,8 +24,8 @@ ReactDOM.render(
     <Introduction />
     <About />
     <div className="experience-anchor"></div>
-    <Experience title={constants.workExperienceTitle} experiences={constants.workExperiences} />
-    <Experience title={constants.projectExperienceTitle} experiences={constants.projectExperiences} />
+    <Experience title={constants.workExperienceTitle} experiences={constants.workExperiences} anchor="bottom-bottom" />
+    <Experience title={constants.projectExperienceTitle} experiences={constants.projectExperiences} anchor="center-bottom" />
     <Resume />
     <div className='padding'></div>
   </React.StrictMode>,

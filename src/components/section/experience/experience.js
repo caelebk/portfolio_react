@@ -3,9 +3,8 @@ import './experience.scss';
 
 export default function Experience(props) {
     const experienceList = props.experiences;
-    ;
     return (
-        <section className='experience' data-aos="fade-up" data-aos-anchor-placement='center-bottom'>
+        <section className='experience' data-aos="fade-up" data-aos-anchor-placement={props.anchor}>
             <div className="experience-header">
                 <h1 className="experience-title">{props.title}</h1>
             </div>

@@ -1,7 +1,7 @@
 import SweetScroll from 'sweet-scroll';
 
 
-export function returnTo(target, type = 'easeInOutQuart', time = 1400, off = -20) {
+export function returnTo(target, type = 'easeInOutQuart', time = 1400, off = 0) {
     let scroller = new SweetScroll({
         easing: type,
         duration: time,
