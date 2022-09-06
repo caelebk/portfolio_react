@@ -4,14 +4,7 @@ import DefaultSection from '../default/default-section';
 import * as constants from '../../constants/constants';
 
 export default function About(props) {
-    const traits = [
-        { trait: 'caeleb.ethnicity', value: "'Indonesian'" },
-        { trait: 'caeleb.age', value: "'21 years old'" },
-        { trait: 'caeleb.favoriteFood', value: "'Spaghetti Bolognese'" },
-        { trait: 'caeleb.favoriteMovie,', value: "'Back to the Future 2'" },
-        { trait: 'caeleb.educationLevel', value: "'Undergraduate Third Year'" },
-        { trait: 'caeleb.hobbies', value: "['weightlifting', 'gaming', 'programming', 'eating']" }
-    ]
+    const traits = constants.traits;
 
     return (
         <section

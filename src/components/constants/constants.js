@@ -3,6 +3,15 @@ export const firstName = "Caeleb";
 export const lastName = "Koharjo";
 
 //About me
+export const traits = [
+    { trait: 'caeleb.ethnicity', value: "'Indonesian'" },
+    { trait: 'caeleb.age', value: "'21 years old'" },
+    { trait: 'caeleb.educationLevel', value: "'Undergraduate Third-Year'" },
+    { trait: 'caeleb.favoriteFood', value: "'Spaghetti Bolognese'" },
+    { trait: 'caeleb.favoriteColor,', value: "'Orange'" },
+    { trait: 'caeleb.hobbies', value: "['weightlifting', 'gaming', 'programming', 'eating']" }
+];
+
 export const aboutMeContext = ("Hey I'm Caeleb! A third-year undergraduate at the University of British Columbia studying computer science." +
     " My main interests currently lie in Software Engineering, but I'm super interested in exploring the various disclipines in the realm of computer science. " +
     " Career interests aside, I'm an international student who grew up on the little red dot also known as Singapore. In my free time, I enjoy weightlifting at the gym, " +
@@ -43,6 +52,7 @@ const discordBot = {
     company: "Personal Project",
     date: "Feb - May 2021",
     tech: " Node.js, Discord.js, Javascript, AWS, Heroku",
+    git: "https://github.com/caelebk/discordbot",
     achievements: discordBotExperience
 }
 
@@ -59,6 +69,7 @@ const polynomialCalculator = {
     company: "UBC Course Project",
     date: "Jan - Sept 2020",
     tech: " Java, JUnit, JPanel",
+    git: "https://github.com/caelebk/PolynomialCalculator",
     achievements: polynomicalCalculatorExperience
 }
 
@@ -72,7 +83,14 @@ const billboardScraper = {
     company: "UBC Course Project",
     date: "Sep - Dec 2019",
     tech: " Python, Pandas, Matplotlib",
+    git: "https://github.com/caelebk/Billboard100",
     achievements: billboardExperience
 }
 
 export const projectExperiences = [discordBot, polynomialCalculator, billboardScraper];
+
+
+//Contact
+
+export const email = 'caelebkoharjo@gmail.com';
+export const github = 'caelebk';

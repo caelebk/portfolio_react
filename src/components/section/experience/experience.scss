@@ -20,7 +20,27 @@
                 .job-header-container {
                     font-size: 28px;
                     display: flex;
+                    align-items: center;
                     justify-content: space-between;
+
+                    .job-header {
+                        .link {
+                            position: absolute;
+                            text-decoration: none;
+                            color: inherit;
+                            margin-left: 1rem;
+
+                            .icon {
+                                background-color: rgb(56, 44, 89);
+                                padding: 0.5rem;
+                                border-radius: 0.5rem;
+
+                                &:hover {
+                                    background-color: rgb(82, 77, 98);
+                                }
+                            }
+                        }
+                    }
 
                     .job-date {
                         font-size: 20px;

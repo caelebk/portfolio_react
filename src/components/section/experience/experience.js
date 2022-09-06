@@ -1,5 +1,6 @@
 import React from 'react';
 import './experience.scss';
+import { BsGithub } from 'react-icons/bs';
 
 export default function Experience(props) {
     const experienceList = props.experiences;
@@ -25,6 +26,7 @@ export default function Experience(props) {
                                                     </span>
                                                 ) : undefined
                                             }
+                                            {Boolean(job?.git) ? (<a href={job.git} target='_blank' rel='noreferrer' className='link'><BsGithub className='icon hvr-grow' /></a>) : undefined}
                                         </div>
                                         <span className="job-date">
                                             {job.date}

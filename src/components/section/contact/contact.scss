@@ -1,0 +1,48 @@
+.contact {
+    margin: 10% 10%;
+
+    .line {
+        border: 1px solid white;
+    }
+
+    .contact-header {
+        .contact-title {
+            font-size: 32px;
+        }
+    }
+
+    .contact-list-container {
+        .contact-list {
+
+            .contact-item {
+                text-decoration: none;
+                color: inherit;
+                margin: 2.5%;
+                display: flex;
+                align-items: center;
+                padding: 2rem;
+                border-radius: 1rem;
+
+                &:hover {
+                    border: solid 2px white;
+                    cursor: pointer;
+                    color: orange;
+                }
+
+                .contact-image {
+                    margin-right: 5%;
+                    background-color: rgb(56, 44, 89);
+                    font-size: 64px;
+                    width: 64px;
+                    height: 64px;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                }
+
+                .contact-info {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}
