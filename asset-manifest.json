@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/www.caelebkoharjo.com/static/css/main.871d3cd0.css",
-    "main.js": "/www.caelebkoharjo.com/static/js/main.172714ff.js",
-    "static/media/profile.jpeg": "/www.caelebkoharjo.com/static/media/profile.398a4811b9ab09bc0076.jpeg",
-    "index.html": "/www.caelebkoharjo.com/index.html",
-    "main.871d3cd0.css.map": "/www.caelebkoharjo.com/static/css/main.871d3cd0.css.map",
-    "main.172714ff.js.map": "/www.caelebkoharjo.com/static/js/main.172714ff.js.map"
+    "main.css": "./static/css/main.871d3cd0.css",
+    "main.js": "./static/js/main.3676d611.js",
+    "static/media/profile.jpeg": "./static/media/profile.398a4811b9ab09bc0076.jpeg",
+    "index.html": "./index.html",
+    "main.871d3cd0.css.map": "./static/css/main.871d3cd0.css.map",
+    "main.3676d611.js.map": "./static/js/main.3676d611.js.map"
   },
   "entrypoints": [
     "static/css/main.871d3cd0.css",
-    "static/js/main.172714ff.js"
+    "static/js/main.3676d611.js"
   ]
 }
