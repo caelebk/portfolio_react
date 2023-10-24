@@ -1,5 +1,5 @@
 .resume {
-    margin: 8% 10%;
+    margin-right: 10% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,29 +9,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 400px;
-        width: 50%;
-        border: 2px solid white;
+        padding: 5%;
+        border: 1px solid white;
         border-radius: 2rem;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            background-color: rgb(56, 44, 89);
+            color: orange;
+        }
 
         .icon {
             width: 120px;
             height: 120px;
-        }
-
-        .resume-link {
-            text-decoration: none;
-            color: white;
-            border: 1px solid white;
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-
-            &:hover {
-                background-color: rgb(56, 44, 89);
-                ;
-                border-color: orange;
-                color: orange;
-            }
         }
     }
 }
