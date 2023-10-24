@@ -14,14 +14,14 @@ export default function Experience(props) {
                     {
                         experienceList.map((job) => {
                             return (
-                                <li className='experience-item' data-aos="fade-up" key={job.company} data-aos-anchor-placement='center-bottom'>
+                                <li className='experience-item' data-aos="fade-up" key={job.company} data-aos-anchor-placement='top-bottom'>
                                     <div className="job-header-container">
                                         <div className="job-header">
                                             <span className='job-title'>{job.title}</span>
                                             {Boolean(job?.company) ?
                                                 (
                                                     <span className="job-company">
-                                                        <span className='highlight'> @ </span>
+                                                        <span className='highlight'> | </span>
                                                         {job.company}
                                                     </span>
                                                 ) : undefined
@@ -34,7 +34,7 @@ export default function Experience(props) {
                                     </div>
                                     <div className="tech-container">
                                         <span className="tech-title highlight">Tech/Languages:</span>
-                                        <span className='tech'>{job.tech}</span>
+                                        <span className='tech'> {job.tech}</span>
                                     </div>
                                     <div className="job-container">
                                         <ul className="job-list">

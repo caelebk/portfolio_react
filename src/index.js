@@ -22,8 +22,8 @@ ReactDOM.render(
     <Introduction />
     <About />
     <div className="experience-anchor"></div>
-    <Experience title={constants.workExperienceTitle} experiences={constants.workExperiences} anchor="bottom-bottom" />
-    <Experience title={constants.projectExperienceTitle} experiences={constants.projectExperiences} anchor="center-bottom" />
+    <Experience title={constants.workExperienceTitle} experiences={constants.workExperiences} anchor="top-bottom" />
+    <Experience title={constants.projectExperienceTitle} experiences={constants.projectExperiences} anchor="top-bottom" />
     <Resume />
     <div className="contact-anchor"></div>
     <Contact />

@@ -51,7 +51,7 @@ export default function Contact(props) {
                     </a>
                 </div>
             </div>
-            <div className="line" data-aos="expand"></div>
+            <div className="line" data-aos="expand" data-aos-anchor-placement="top-bottom"></div>
         </section>
     )
 }

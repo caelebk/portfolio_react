@@ -1,9 +1,11 @@
-@import '../../common-css/fonts.scss';
-@import '../../common-css/animation.scss';
+@import '../../../common-css/fonts.scss';
+@import '../../../common-css/animation.scss';
 
-.default {
-    padding-top: 5%;
-    margin: 0 10%;
+.aboutMeSection {
+    margin: 10% 10%;
+    padding: 1% 2%;
+    border: 1px solid white;
+    border-radius: 50px;
 
     .title-container {
         height: fit-content;

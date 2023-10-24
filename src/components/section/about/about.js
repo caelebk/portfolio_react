@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.scss'
-import DefaultSection from '../default/default-section';
+import AboutMeSection from './aboutMe/aboutMeSection';
 import * as constants from '../../constants/constants';
 
 export default function About(props) {
@@ -9,14 +9,8 @@ export default function About(props) {
     return (
         <section
             className='about'
-            data-aos="fade-down"
-            data-aos-once="true"
+            data-aos="fade-up"
             data-aos-anchor-placement="top-center">
-            <div className="about-title-container">
-                <h1 className="about-title">
-                    Fun Facts About Me:
-                </h1>
-            </div>
             <div className="about-context-container">
                 <div className='about-context'>
                     <ul className='about-list'>
@@ -38,7 +32,7 @@ export default function About(props) {
                 </div>
             </div>
             <div className='about-anchor'></div>
-            <DefaultSection title="About Me:" content={constants.aboutMeContext} />
+            <AboutMeSection title="About Me:" content={constants.aboutMeContext} />
         </section>
     );
 }

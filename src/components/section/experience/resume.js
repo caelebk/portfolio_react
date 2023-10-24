@@ -8,7 +8,7 @@ export default function Resume() {
         <section className="resume">
             <div className="resume-container" data-aos='fade-up'>
                 <BsFillPersonLinesFill className='icon highlight' />
-                <a href="https://drive.google.com/file/d/1peh2pBIg4T_2DWMbwP--sVwo1OncvvPa/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1p8rY3Q4PFVN7xAMTLRUK4J3IBd5x33MX/view?usp=sharing"
                     rel="noreferrer"
                     target="_blank"
                     className='resume-link hvr-hang'>
