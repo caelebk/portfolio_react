@@ -4,7 +4,7 @@ import './aboutMeSection.scss';
 export default function AboutMeSection(props) {
 
     return (
-        <section className='aboutMeSection' data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+        <section className='aboutMeSection' data-aos="zoom-in" data-aos-anchor-placement="top-center">
             <div className='title-container'>
                 <h1 className='section-title'>
                     {props.title}
