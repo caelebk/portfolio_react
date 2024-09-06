@@ -7,11 +7,20 @@ export default function Experience(props) {
   if (props?.experiences?.personalProjectData) {
     experienceList = props?.experiences?.personalProjectData?.map(
       (experience) => {
+        const startDate = new Date(
+          experience.projectStartDate
+        ).toLocaleDateString("en-US", { year: "numeric", month: "long" });
+        const endDate = new Date(experience.projectEndDate).toLocaleDateString(
+          "en-US",
+          { year: "numeric", month: "long" }
+        );
+        const date = startDate && endDate ? startDate + " - " + endDate : null;
         return {
           title: experience.projectTitle,
           project: experience.projectType,
           git: experience.projectGitHub,
           tech: experience.projectTechnology,
+          date: date,
           achievements: experience.projectAchievements,
         };
       }
@@ -19,17 +28,26 @@ export default function Experience(props) {
   } else if (props?.experiences?.workExperienceData) {
     experienceList = props?.experiences?.workExperienceData?.map(
       (experience) => {
+        const startDate = new Date(experience.jobStartDate).toLocaleDateString(
+          "en-US",
+          { year: "numeric", month: "long" }
+        );
+        const endDate = new Date(experience.jobEndDate).toLocaleDateString(
+          "en-US",
+          { year: "numeric", month: "long" }
+        );
+        const date = startDate && endDate ? startDate + " - " + endDate : null;
         return {
           title: experience.jobTitle,
           company: experience.jobCompany,
           location: experience.jobLocation,
           tech: experience.jobTechnology,
+          date: date,
           achievements: experience.jobAchievements,
         };
       }
     );
   }
-  console.log(experienceList);
   return (
     <section
       className="experience"
@@ -42,7 +60,6 @@ export default function Experience(props) {
       <div className="experience-container">
         <ul className="experience-list">
           {experienceList.map((job) => {
-            console.log(job);
             return (
               <li
                 className="experience-item"
@@ -76,7 +93,7 @@ export default function Experience(props) {
                       </a>
                     ) : undefined}
                   </div>
-                  <span className="job-date highlight">{job.date}</span>
+                  <span className="job-date">{job.date}</span>
                 </div>
                 <div className="tech-container">
                   <span className="tech-title highlight">Tech/Languages:</span>
