@@ -1,0 +1,111 @@
+{
+  "personalProjectData": [
+    {
+      "projectAchievements": [
+        "Utilized Beautiful Soup library to gather the top 100 albums in a certain time period from popular music chart website Billboard 100 and store the data inside of a Pandas (data-frame library) data-frame.",
+        "Implemented a plotter using Pandas to manipulate the data-frame and Matplotlib (plotting library) to display a line chart of the artists with the longest top albums."
+      ],
+      "projectTitle": "Billboard 100 Web-Scraper",
+      "projectType": "UBC Course Project",
+      "projectGitHub": "https://github.com/caelebk/Billboard100",
+      "projectStartDate": "2019-09-01T00:00:00.000Z",
+      "projectEndDate": "2019-12-31T00:00:00.000Z",
+      "projectTechnology": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Numpy",
+        "BeautifulSoup"
+      ]
+    },
+    {
+      "projectAchievements": [
+        "A chat-bot that executes functions based on user input, previously deployed on an AWS EC2 Instance and currently deployed on Heroku.",
+        "Utilized Cheerio (subset of JQuery) and Axios (HTTP client library) to request and web-scrape data off popular League of Legends statistics website OP.GG to analyze selected-user data and respond with a statistical summary.",
+        "Extracted and parsed data from a public League of Legends Google Spreadsheet (using Google-API) to extract data from labeled rows and columns to allow users to display selected information from the attached spreadsheet."
+      ],
+      "projectTitle": "Discord Chat-Bot",
+      "projectType": "Personal Project",
+      "projectGitHub": "https://github.com/caelebk/discordbot",
+      "projectStartDate": "2021-02-01T00:00:00.000Z",
+      "projectEndDate": "2022-11-01T00:00:00.000Z",
+      "projectTechnology": [
+        "Node.js",
+        "Discord.js",
+        "JavaScript",
+        "Heroku",
+        "AWS EC2"
+      ]
+    },
+    {
+      "projectAchievements": [
+        "Derived/integrated user-inputted polynomial expressions using hash-tables, resulting in efficient runtime while following software design strategies to maintain robust code.",
+        "Translated from infix expressions to postfix expressions using a stack in order to solve mathematical expressions with proper orders of operations.",
+        "Used JUnit library for creating unit tests to mitigate potential bugs and weird behaviors, ensuring that the calculator functions work as expected.",
+        "Implemented the user-interface using the JPanel library, allowing users to use the polynomial calculator as a desktop application.",
+        "Created models & JSONs to represent mathematical expressions, allowing users to persist and load mathematical expressions for future usage."
+      ],
+      "projectTitle": "Polynomial Calculator",
+      "projectType": "UBC Course Project",
+      "projectGitHub": "https://github.com/caelebk/PolynomialCalculator",
+      "projectStartDate": "2020-01-01T00:00:00.000Z",
+      "projectEndDate": "2020-09-01T00:00:00.000Z",
+      "projectTechnology": [
+        "Java",
+        "JUnit",
+        "JPanel"
+      ]
+    },
+    {
+      "projectAchievements": [],
+      "projectTitle": "Warehouse Database Project",
+      "projectType": "UBC Course Project",
+      "projectGitHub": null,
+      "projectStartDate": "2023-09-01T00:00:00.000Z",
+      "projectEndDate": "2021-12-01T00:00:00.000Z",
+      "projectTechnology": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "Oracle",
+        "SQL",
+        "Relational Database",
+        "Bootstrap CSS Framework"
+      ]
+    },
+    {
+      "projectAchievements": [],
+      "projectTitle": "UBC Insights",
+      "projectType": "UBC Course Project",
+      "projectGitHub": null,
+      "projectStartDate": "2024-01-01T00:00:00.000Z",
+      "projectEndDate": "2024-04-30T00:00:00.000Z",
+      "projectTechnology": [
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "Express",
+        "REST API",
+        "JSON",
+        "Chai Testing Framework"
+      ]
+    },
+    {
+      "projectAchievements": [],
+      "projectTitle": "Lingo",
+      "projectType": "Personal Project",
+      "projectGitHub": null,
+      "projectStartDate": "2023-04-02T00:00:00.000Z",
+      "projectEndDate": "2023-06-16T00:00:00.000Z",
+      "projectTechnology": [
+        "React",
+        "Next",
+        "Prisma",
+        "HTML",
+        "CSS",
+        "TypeScript"
+      ]
+    }
+  ]
+}

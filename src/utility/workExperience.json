@@ -1,0 +1,67 @@
+{
+  "workExperienceData": [
+    {
+      "jobAchievements": [
+        "Modernized four legacy ASPX pages by restructuring and rewriting them into Angular and integrating them with newly developed internal Web API endpoints, improving maintainability and performance.",
+        "\nEngineered a data provisioner that extracts and processes data from various internal APIs, services, ORM methods, and SQL queries to automate the extraction, generation, and uploading of structured data to AWS S3 Buckets.",
+        "\nWorked within a designated team to integrate a third-party AWS service by handling authentication, securing a connection to backend services, and embedding the solution into the user-interface for enhanced data analysis."
+      ],
+      "jobTitle": "Software Developer Co-op",
+      "jobCompany": "Copperleaf",
+      "jobStartDate": "2024-01-08T00:00:00.000Z",
+      "jobEndDate": "2024-08-30T00:00:00.000Z",
+      "jobLocation": "Vancouver",
+      "jobTechnology": [
+        "Angular",
+        "C#",
+        ".NET",
+        "TypeScript",
+        "Oracle",
+        "SQL"
+      ]
+    },
+    {
+      "jobAchievements": [
+        "Developed and executed formal test plans, ensuring the device performed up to medical standards.",
+        "Contributed to the enhancement of wxWidget UI components, ensuring the creation of consistent and reusable graphical user interface elements within the Debian environment.",
+        "Implemented a solution to prevent N2O challenges from disrupting operations during active Qsi calculations through efficient management of payloads between the GUI and microcontroller, preventing overloaded buffers.",
+        "Enhanced Python scripts responsible for generating objects, enums, and messages from JIRA tables, streamlining data extraction and processing."
+      ],
+      "jobTitle": "Software Engineer Co-op",
+      "jobCompany": "Rostrum Medical Innovations",
+      "jobStartDate": "2024-09-05T00:00:00.000Z",
+      "jobEndDate": "2024-12-31T00:00:00.000Z",
+      "jobLocation": "Vancouver",
+      "jobTechnology": [
+        "C++",
+        "C",
+        "Debian Linux",
+        "Python",
+        "PIC Microcontroller"
+      ]
+    },
+    {
+      "jobAchievements": [
+        "Managed the Visier-UI component library through routine updates of Angular components, comprehensive documentation, and publication of updated versions, resulting in improved UI components within the codebase.",
+        "Revamped employee search page while developing an Angular component that utilizes REST API endpoints for efficient employee queries and complex filtering.",
+        "Designed protobuf DTOs, facilitating seamless data model conversions and reinforcing the onion architecture.",
+        "Conducted threat analysis, mitigating security vulnerabilities via data-flow diagrams and STRIDE charts.",
+        "Upgraded package dependencies via Yarn and resolved related issues to prevent security vulnerabilities and maintain expected behaviors, ensuring a more secure and up-to-date environment.",
+        "Wrote unit tests in Scala and Typescript to mitigate potential bugs and verify that features behaved as expected."
+      ],
+      "jobTitle": "Software Developer Co-op",
+      "jobCompany": "Visier",
+      "jobStartDate": "2022-01-04T00:00:00.000Z",
+      "jobEndDate": "2022-08-25T00:00:00.000Z",
+      "jobLocation": "Vancouver",
+      "jobTechnology": [
+        "Angular",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Scala"
+      ]
+    }
+  ]
+}
