@@ -2,6 +2,26 @@
   "workExperienceData": [
     {
       "jobAchievements": [
+        "Developed and executed formal test plans, ensuring the device performed up to medical standards.",
+        "Contributed to the enhancement of wxWidget UI components, ensuring the creation of consistent and reusable graphical user interface elements within the Debian environment.",
+        "Implemented a solution to prevent N2O challenges from disrupting operations during active Qsi calculations through efficient management of payloads between the GUI and microcontroller, preventing overloaded buffers.",
+        "Enhanced Python scripts responsible for generating objects, enums, and messages from JIRA tables, streamlining data extraction and processing."
+      ],
+      "jobTitle": "Software Engineer Co-op",
+      "jobCompany": "Rostrum Medical Innovations",
+      "jobStartDate": "2023-09-05T00:00:00.000Z",
+      "jobEndDate": "2023-12-31T00:00:00.000Z",
+      "jobLocation": "Vancouver",
+      "jobTechnology": [
+        "C++",
+        "C",
+        "Debian Linux",
+        "Python",
+        "PIC Microcontroller"
+      ]
+    },
+    {
+      "jobAchievements": [
         "Modernized four legacy ASPX pages by restructuring and rewriting them into Angular and integrating them with newly developed internal Web API endpoints, improving maintainability and performance.",
         "\nEngineered a data provisioner that extracts and processes data from various internal APIs, services, ORM methods, and SQL queries to automate the extraction, generation, and uploading of structured data to AWS S3 Buckets.",
         "\nWorked within a designated team to integrate a third-party AWS service by handling authentication, securing a connection to backend services, and embedding the solution into the user-interface for enhanced data analysis."
@@ -18,26 +38,6 @@
         "TypeScript",
         "Oracle",
         "SQL"
-      ]
-    },
-    {
-      "jobAchievements": [
-        "Developed and executed formal test plans, ensuring the device performed up to medical standards.",
-        "Contributed to the enhancement of wxWidget UI components, ensuring the creation of consistent and reusable graphical user interface elements within the Debian environment.",
-        "Implemented a solution to prevent N2O challenges from disrupting operations during active Qsi calculations through efficient management of payloads between the GUI and microcontroller, preventing overloaded buffers.",
-        "Enhanced Python scripts responsible for generating objects, enums, and messages from JIRA tables, streamlining data extraction and processing."
-      ],
-      "jobTitle": "Software Engineer Co-op",
-      "jobCompany": "Rostrum Medical Innovations",
-      "jobStartDate": "2024-09-05T00:00:00.000Z",
-      "jobEndDate": "2024-12-31T00:00:00.000Z",
-      "jobLocation": "Vancouver",
-      "jobTechnology": [
-        "C++",
-        "C",
-        "Debian Linux",
-        "Python",
-        "PIC Microcontroller"
       ]
     },
     {
