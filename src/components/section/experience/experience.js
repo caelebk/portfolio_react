@@ -5,6 +5,12 @@ import { BsGithub } from "react-icons/bs";
 export default function Experience(props) {
   let experienceList;
   if (props?.experiences?.personalProjectData) {
+    props.experiences.personalProjectData.sort((experience1, experience2) => {
+      return (
+        new Date(experience2.projectStartDate) -
+        new Date(experience1.projectStartDate)
+      );
+    });
     experienceList = props?.experiences?.personalProjectData?.map(
       (experience) => {
         const startDate = new Date(
@@ -26,6 +32,11 @@ export default function Experience(props) {
       }
     );
   } else if (props?.experiences?.workExperienceData) {
+    props.experiences.workExperienceData.sort((experience1, experience2) => {
+      return (
+        new Date(experience2.jobStartDate) - new Date(experience1.jobEndDate)
+      );
+    });
     experienceList = props?.experiences?.workExperienceData?.map(
       (experience) => {
         const startDate = new Date(experience.jobStartDate).toLocaleDateString(
