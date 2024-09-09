@@ -107,14 +107,17 @@ export default function Experience(props) {
                   <span className="job-date">{job.date}</span>
                 </div>
                 <div className="tech-container">
-                  <span className="tech-title highlight">Tech/Languages:</span>
-                  <span className="tech"> {job.tech.join(", ")}</span>
+                  <div className="tech">
+                    <span className="tech-title highlight">
+                      Tech/Languages:
+                    </span>
+                    <span className="tech-used"> {job.tech.join(", ")}</span>
+                  </div>
                   {Boolean(job.location) ? (
-                    <>
-                      <br></br>
+                    <div className="location">
                       <span className="highlight"> Location: </span>
                       <span> {job.location} </span>
-                    </>
+                    </div>
                   ) : undefined}
                 </div>
                 <div className="job-container">
@@ -127,7 +130,9 @@ export default function Experience(props) {
                           data-aos="fade-up"
                           data-aos-anchor-placement="center-bottom"
                         >
-                          {achievement}
+                          <span className="job-item-content">
+                            {achievement}
+                          </span>
                         </li>
                       );
                     })}

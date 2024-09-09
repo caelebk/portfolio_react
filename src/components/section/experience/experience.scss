@@ -57,7 +57,11 @@
             list-style-type: "📌";
             .job-item {
               vertical-align: middle;
-              margin: 2.5% 0;
+              margin: 2% 0;
+              .job-item-content {
+                display: block;
+                padding-left: 0.5%;
+              }
             }
           }
         }
