@@ -2,84 +2,38 @@
   "personalProjectData": [
     {
       "projectAchievements": [
-        "Utilized Beautiful Soup library to gather the top 100 albums in a certain time period from popular music chart website Billboard 100 and store the data inside of a Pandas (data-frame library) data-frame.",
-        "Implemented a plotter using Pandas to manipulate the data-frame and Matplotlib (plotting library) to display a line chart of the artists with the longest top albums."
+        "Built a full-stack web application using React and Next.js for facilitating language learning support through vocabulary decks.",
+        "Developed a SQLite in-memory relational database and designed a schema for the entity-relationships between cards and decks.",
+        "Leveraged Prisma for efficient management and querying of user-generated decks and vocabulary cards, ensuring seamless data handling and performance.",
+        "Implemented a Next.js server component to create an interface for managing vocabulary decks, enabling seamless database queries and operations using Prisma."
       ],
-      "projectTitle": "Billboard 100 Web-Scraper",
-      "projectType": "UBC Course Project",
-      "projectGitHub": "https://github.com/caelebk/Billboard100",
-      "projectStartDate": "2019-09-01T00:00:00.000Z",
-      "projectEndDate": "2019-12-31T00:00:00.000Z",
-      "projectTechnology": [
-        "Python",
-        "Pandas",
-        "Matplotlib",
-        "Numpy",
-        "BeautifulSoup"
-      ]
-    },
-    {
-      "projectAchievements": [
-        "A chat-bot that executes functions based on user input, previously deployed on an AWS EC2 Instance and currently deployed on Heroku.",
-        "Utilized Cheerio (subset of JQuery) and Axios (HTTP client library) to request and web-scrape data off popular League of Legends statistics website OP.GG to analyze selected-user data and respond with a statistical summary.",
-        "Extracted and parsed data from a public League of Legends Google Spreadsheet (using Google-API) to extract data from labeled rows and columns to allow users to display selected information from the attached spreadsheet."
-      ],
-      "projectTitle": "Discord Chat-Bot",
+      "projectTitle": "Lingo",
       "projectType": "Personal Project",
-      "projectGitHub": "https://github.com/caelebk/discordbot",
-      "projectStartDate": "2021-02-01T00:00:00.000Z",
-      "projectEndDate": "2022-11-01T00:00:00.000Z",
+      "projectGitHub": "https://github.com/caelebk/lingo",
+      "projectStartDate": "2023-04-02T00:00:00.000Z",
+      "projectEndDate": "2023-06-16T00:00:00.000Z",
       "projectTechnology": [
-        "Node.js",
-        "Discord.js",
-        "JavaScript",
-        "Heroku",
-        "AWS EC2"
-      ]
-    },
-    {
-      "projectAchievements": [
-        "Derived/integrated user-inputted polynomial expressions using hash-tables, resulting in efficient runtime while following software design strategies to maintain robust code.",
-        "Translated from infix expressions to postfix expressions using a stack in order to solve mathematical expressions with proper orders of operations.",
-        "Used JUnit library for creating unit tests to mitigate potential bugs and weird behaviors, ensuring that the calculator functions work as expected.",
-        "Implemented the user-interface using the JPanel library, allowing users to use the polynomial calculator as a desktop application.",
-        "Created models & JSONs to represent mathematical expressions, allowing users to persist and load mathematical expressions for future usage."
-      ],
-      "projectTitle": "Polynomial Calculator",
-      "projectType": "UBC Course Project",
-      "projectGitHub": "https://github.com/caelebk/PolynomialCalculator",
-      "projectStartDate": "2020-01-01T00:00:00.000Z",
-      "projectEndDate": "2020-09-01T00:00:00.000Z",
-      "projectTechnology": [
-        "Java",
-        "JUnit",
-        "JPanel"
-      ]
-    },
-    {
-      "projectAchievements": [],
-      "projectTitle": "Warehouse Database Project",
-      "projectType": "UBC Course Project",
-      "projectGitHub": null,
-      "projectStartDate": "2023-09-01T00:00:00.000Z",
-      "projectEndDate": "2021-12-01T00:00:00.000Z",
-      "projectTechnology": [
-        "PHP",
+        "React",
+        "Next",
+        "Prisma",
         "HTML",
         "CSS",
-        "Oracle",
-        "SQL",
-        "Relational Database",
-        "Bootstrap CSS Framework"
+        "TypeScript"
       ]
     },
     {
-      "projectAchievements": [],
+      "projectAchievements": [
+        "UBC CPSC 310 (Introduction to Software Engineering) course, collaborated with a partner to build a full-stack web application to store and query UBC's building and course information.",
+        "Built an Express web server by designing REST API endpoints, handling HTTP requests, modelling JSONs for data transfer, and routing to appropriate backend services for business logic, enabling users to store and query datasets for UBC courses and buildings.",
+        "Developed a single-page application using React, leveraging functional components with useEffect and useState hooks to make HTTP requests to API endpoints, passing complex JSON query parameters for advanced data filtering and searching, and displaying the returned results in the user interface, resulting in a performant user-friendly search experience.",
+        "Created an EBNF-based query language similar to SQL to support complex nested filtering, sorting, grouping, and searching for UBC course and building information, enabling users to define extended criteria for more precise search queries.",
+        "Utilized the Mocha testing framework and Chai assertions to build a robust test suite for API endpoints and business logic, adhering to test-driven development principles by defining functional requirements, writing black-box tests before implementation, and conducting white-box testing post implementation to ensure code reliability and correctness."
+      ],
       "projectTitle": "UBC Insights",
       "projectType": "UBC Course Project",
-      "projectGitHub": null,
-      "projectStartDate": "2024-01-01T00:00:00.000Z",
-      "projectEndDate": "2024-04-30T00:00:00.000Z",
+      "projectGitHub": "https://github.com/caelebk/UBCinsights",
+      "projectStartDate": "2023-01-06T00:00:00.000Z",
+      "projectEndDate": "2023-04-30T00:00:00.000Z",
       "projectTechnology": [
         "TypeScript",
         "React",
@@ -92,19 +46,86 @@
       ]
     },
     {
-      "projectAchievements": [],
-      "projectTitle": "Lingo",
-      "projectType": "Personal Project",
-      "projectGitHub": null,
-      "projectStartDate": "2023-04-02T00:00:00.000Z",
-      "projectEndDate": "2023-06-16T00:00:00.000Z",
+      "projectAchievements": [
+        "UBC CPSC 304 (Introduction to Relational Databases) course, I led a group of three for designing a relational database and implementing a Warehouse Management Web Application.",
+        "Designed an Entity-Relationship diagram, restructured it into a Relational Database schema, and developed a SQL create table script to initialize our Oracle Database.",
+        "Built the foundational boilerplate for our PHP pages, estabilshing the initial connection to our Oracle Database instance, structuring HTTP requests to execute SQL queries, and integrating Bootstrap's CSS Framework for responsive web design, enabling my partners to use the boilerplate and efficiently focus on building complex SQL queries.",
+        "Wrote extensive SQL queries for key application features, including update queries,  selection and projection queries with filtering, static division queries across tables, and static aggregation queries with HAVING clauses, resulting in improved data management and workflow efficiency.",
+        "Deployed the web application on UBC's ubuntu servers and utilized provided UBC Oracle Database instances."
+      ],
+      "projectTitle": "Warehouse Database Project",
+      "projectType": "UBC Course Project",
+      "projectGitHub": "https://github.com/caelebk/CPSC304-Warehouse-Project/",
+      "projectStartDate": "2021-09-04T00:00:00.000Z",
+      "projectEndDate": "2021-12-04T00:00:00.000Z",
       "projectTechnology": [
-        "React",
-        "Next",
-        "Prisma",
+        "PHP",
         "HTML",
         "CSS",
-        "TypeScript"
+        "Oracle",
+        "SQL",
+        "Relational Database",
+        "Bootstrap CSS Framework"
+      ]
+    },
+    {
+      "projectAchievements": [
+        "UBC CPSC 203 (Programming, Problem Solving, and Algorithms) course, we were assigned a project to scrape and analyze data from Billboard Hot 100 charts to learn Pandas.",
+        "Utilized BeautifulSoup webscraper to gather the top 100 albums in a certain time period from popular music chart website Billboard 100 and store them in a Pandas data-frame.",
+        "Implemented a plotter using Pandas and numpy to manipulate the data-frame and Matplotlib to display a line chart for the artists with the longest standing top albums."
+      ],
+      "projectTitle": "Billboard 100 Web-Scraper",
+      "projectType": "UBC Course Project",
+      "projectGitHub": "https://github.com/caelebk/Billboard100",
+      "projectStartDate": "2019-09-11T00:00:00.000Z",
+      "projectEndDate": "2019-12-29T00:00:00.000Z",
+      "projectTechnology": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Numpy",
+        "BeautifulSoup"
+      ]
+    },
+    {
+      "projectAchievements": [
+        "Created a chat-bot using Discord.js and Node.js to manage communities and supply information to users, previously deployed on AWS EC2, Heroku Dynos, and Raspberry Pi.",
+        "Employed Cheerio and Axios to web-scrape data from the League of Legends statistics website OP.GG, enabling efficient data extraction and analysis based on user-selected inputs.",
+        "Extracted and parsed data from a public League of Legends Google Spreadsheet via Google's API for user-selected statistics."
+      ],
+      "projectTitle": "Discord Chat-Bot",
+      "projectType": "Personal Project",
+      "projectGitHub": "https://github.com/caelebk/discordbot",
+      "projectStartDate": "2021-02-02T00:00:00.000Z",
+      "projectEndDate": "2022-11-02T00:00:00.000Z",
+      "projectTechnology": [
+        "Node.js",
+        "Discord.js",
+        "JavaScript",
+        "AWS EC2",
+        "Heroku Dynos",
+        "HTTP"
+      ]
+    },
+    {
+      "projectAchievements": [
+        "UBC CPSC 210 (Introduction to Software Construction) course, I built a desktop application that primarily focused on solving, deriving, and integrating polynomial expressions.",
+        "Implemented polynomial expressions by representing them using hash-tables, deriving and integrating them in linear runtime to the number of terms.",
+        "Utilized infix and postfix expressions to accurately represent mathematical formulas and ensure the calculator correctly handles order of operations during calculations.",
+        "Leveraged the JUnit library to develop unit tests, identifying and mitigating potential bugs and anomalies, ensuring reliable and expected performance of calculator functions.",
+        "Built the user interface with the JPanel library, enabling users to interact with the polynomial calculator as a fully functional desktop application.",
+        "Converted between models and JSON structures to save both regular mathematical expressions and polynomial expressions, enabling users to save and load for future use, enhancing the calculator’s user experience.",
+        "Modeled UML diagram to understand the hierarchy of objects within the application, following Object-Oriented programming practices to create a more organized and documented application."
+      ],
+      "projectTitle": "Polynomial Calculator",
+      "projectType": "UBC Course Project",
+      "projectGitHub": "https://github.com/caelebk/PolynomialCalculator",
+      "projectStartDate": "2020-01-16T00:00:00.000Z",
+      "projectEndDate": "2020-09-01T00:00:00.000Z",
+      "projectTechnology": [
+        "Java",
+        "JUnit",
+        "JPanel"
       ]
     }
   ]
