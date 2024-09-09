@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.scss";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Experience(props) {
   let experienceList;
@@ -24,7 +24,7 @@ export default function Experience(props) {
         return {
           title: experience.projectTitle,
           project: experience.projectType,
-          git: experience.projectGitHub,
+          link: experience.projectGitHub,
           tech: experience.projectTechnology,
           date: date,
           achievements: experience.projectAchievements,
@@ -54,6 +54,7 @@ export default function Experience(props) {
           location: experience.jobLocation,
           tech: experience.jobTechnology,
           date: date,
+          link: experience.jobLinkedIn,
           achievements: experience.jobAchievements,
         };
       }
@@ -80,28 +81,34 @@ export default function Experience(props) {
               >
                 <div className="job-header-container">
                   <div className="job-header">
+                    {Boolean(job?.link) ? (
+                      <span>
+                        <a
+                          href={job.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="link"
+                        >
+                          {Boolean(job?.project) ? (
+                            <BsGithub className="icon hvr-grow" />
+                          ) : (
+                            <BsLinkedin className="icon hvr-grow" />
+                          )}
+                        </a>
+                      </span>
+                    ) : undefined}
                     <span className="job-title">{job.title}</span>
                     {Boolean(job?.company) ? (
-                      <span className="job-company">
-                        <span className="highlight"> @ </span>
-                        {job.company}
-                      </span>
+                      <>
+                        <span className="highlight separator"> @ </span>
+                        <span> {job.company}</span>
+                      </>
                     ) : undefined}
                     {Boolean(job?.project) ? (
-                      <span>
-                        <span className="highlight"> | </span>
-                        {job.project}
-                      </span>
-                    ) : undefined}
-                    {Boolean(job?.git) ? (
-                      <a
-                        href={job.git}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="link"
-                      >
-                        <BsGithub className="icon hvr-grow" />
-                      </a>
+                      <>
+                        <span className="highlight separator"> | </span>
+                        <span> {job.project}</span>
+                      </>
                     ) : undefined}
                   </div>
                   <span className="job-date">{job.date}</span>

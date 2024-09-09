@@ -4,13 +4,13 @@ export const lastName = "Koharjo";
 
 //About me
 export const traits = [
-  { trait: "caeleb.ethnicity", value: "'Indonesian'" },
+  { trait: "caeleb.ethnicity", value: "'1/2 Indonesian 1/2 Singaporean'" },
   { trait: "caeleb.age", value: "'23 years old'" },
   {
     trait: "caeleb.status",
-    value: "'4th Year Undergraduate @ The University of Britsh Columbia'",
+    value: "'5th Year Undergraduate @ The University of Britsh Columbia'",
   },
-  { trait: "caeleb.favoriteFood", value: "'Spaghetti Bolognese'" },
+  { trait: "caeleb.favoriteFood", value: "'Beef Pepper Rice @ Pepper Lunch'" },
   { trait: "caeleb.favoriteColor", value: "'Orange'" },
   {
     trait: "caeleb.hobbies",

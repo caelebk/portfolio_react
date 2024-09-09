@@ -24,11 +24,12 @@
           justify-content: space-between;
 
           .job-header {
+            display: flex;
+            align-items: center;
             .link {
-              position: absolute;
               text-decoration: none;
               color: inherit;
-              margin-left: 1rem;
+              margin-right: 0.5rem;
 
               .icon {
                 background-color: rgb(56, 44, 89);
@@ -39,6 +40,9 @@
                   background-color: rgb(82, 77, 98);
                 }
               }
+            }
+            .separator {
+              padding: 0 10px;
             }
           }
 

@@ -27,6 +27,7 @@ const workExperienceQuery = `{
       jobEndDate
       jobLocation
       jobTechnology
+      jobLinkedIn
       jobAchievements {
         json
       }
